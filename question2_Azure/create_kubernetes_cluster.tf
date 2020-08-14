@@ -1,0 +1,1 @@
+terraform init -backend-config="storage_account_name=my_telios_storage_account" -backend-config="container_name=tfstate" -backend-config="access_key=4Q3gy7ld1w4ouIVbcevJ59MJwS0cDwJr/Ym1uxW2huD66AF/dcBf2oYhLx8zaXKh16RiSqJs17SIY3acbL1Rhw==" -backend-config="key=teliosproject.chidiebereugwu.tfstate"

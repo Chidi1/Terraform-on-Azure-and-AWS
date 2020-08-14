@@ -56,3 +56,30 @@ M.	Install terraform tools
 
 •	Click on show assistance to install terraform tools
 •	Add terraform tools for init, validate, plan, validate and apply (add destroy if you want to end)
+
+
+Terraform on AWS
+A.	Creates AWS account
+Create an AWS account using https://aws.amazon.com/resources/create-account/
+Sign in to AWS console and search for I AM
+Click on users
+On the users blade, click on security credentials tab to create access keys 
+
+B.	Prepare your environment
+•	Execute the following commands to set up your AWS credentials as environment variables. 
+export AWS_ACCESS_KEY_ID=<enter your access key>
+export AWS_SECRET_ACCESS_KEY=<enter your secret key>
+•	Install terraform
+
+C.	Create Terraform scripts (see repo files for question1 and 2 AWS)
+•	terraform.tfvars 
+•	variables.tf 
+•	ec2.tf 
+
+D.	Apply your Terraform scripts
+•	Execute the following command to run your Terraform scripts from the directory that contains the .tf files:
+terraform apply -var-file=terraform.tfvars
+•	Verify on AWS if the EC2 machine was provisioned.
+*******The End
+
+

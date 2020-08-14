@@ -1,4 +1,7 @@
-# Terraform-on-Azure
+# Terraform-on-Azure-and-AWS
+
+Terraform on Azure
+
 Deploy resources to Azure and AWS using terraform
 Terraform Deployment on Azure DevOps
 Prepare your environment: Follow the steps below to install terraform on windows machine (used in my case)
